@@ -13,7 +13,6 @@ const Routes = (props) => (
     <Route path='/newkeg' render={()=><NewKegControl onNewKegCreation={props.handleAddingNewKegToList} />} />
     <Route path='/about' component={ About } />
     <Route path='/location' component={ Location } />
-
     }
   </Switch>
 );
