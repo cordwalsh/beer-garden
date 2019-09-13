@@ -13,11 +13,11 @@ function Header(){
       <div className="links">
         <Link to="/"><img src={Home} /></Link>
         <Link to="/newkeg"><img src={Logo} /></Link>
-        <Link to="/about">About</Link>
       </div>
       <div className="links_info">
-        <p>503-555-0104</p>
+        <Link to="/about">About</Link>
         <p>Location</p>
+        <p>503-555-0104</p>
       </div>
     </div>
   );
