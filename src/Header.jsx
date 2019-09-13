@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './assets/add_beer.png';
 import Home from './assets/home.png';
+import About from './About';
 
 
 
@@ -12,6 +13,7 @@ function Header(){
       <div className="links">
         <Link to="/"><img src={Home} /></Link>
         <Link to="/newkeg"><img src={Logo} /></Link>
+        <Link to="/about">About</Link>
       </div>
       <div className="links_info">
         <p>503-555-0104</p>
