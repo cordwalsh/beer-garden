@@ -1,18 +1,123 @@
-.container {
-    margin: auto;
-    text-align: center;
-    max-width: 600px;
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-    &__image {
-        width: 100px;
-        height: auto;
-    }
-}
-
-.left {
-    text-align: left;
-}
 
 body {
-  background-image: url("./assets/beer_background.jpg");
+background-color: lightcoral;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.header h1 {
+  font-size: 65px;
+  text-shadow: 2px 4px 4px black;
+  color: white;
+  display: inline-block;
+  width: 20%;
+}
+
+.header img {
+  margin-right: 10px;
+  animation: wiggle 1.5s infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(8deg); }
+   95% { transform: rotate(-8deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.links {
+  display: inline-block;
+  width: 80%;
+}
+
+.skull {
+  position: absolute;
+  width: 50px;
+  right: 290px;
+  top: 2px;
+}
+
+.confirmation {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.confirmation button {
+  width: 80px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px;
+}
+
+.confirmation button:hover {
+  background-color: lightgreen;
+}
+
+.kegform {
+  text-align: center;
+  padding: 10px;
+}
+
+.kegform input {
+  margin:10px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.kegform button {
+  width: 80px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px;
+  color: black;
+}
+
+.kegform button:hover {
+  background-color: #fff06e;
+}
+
+.kegform h1 {
+  color: white;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  font-size: 15px;
+  opacity: 1;
+  animation: fade 3s;
+}
+
+@keyframes fade {
+
+  0% { opacity: 0 }
+  30% { opacity: 0 }
+  31% { opacity: 0}
+  100% { opacity: 1}
+}
+
+.kegform h2 {
+  font-size: 60px;
+  position: absolute;
+  right: 49.5%;;
+  top: 32%;
+  animation: fade 6s;
+}
+
+.keglist {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.links_info {
+  color: white;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  text-shadow: 2px 2px 2px black;
 }

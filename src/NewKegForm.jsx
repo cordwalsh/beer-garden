@@ -42,10 +42,12 @@ function NewKegForm(props){
             id='abv'
             placeholder='Abv'
             ref={(input) => {_abv = input;}}/>
-          
 
-        <button type='submit'>ADD</button>
+
+          <button type='submit'>ADD</button>
       </form>
+      <h1>CHEERS!</h1>
+      <h2>🍻</h2>
     </div>
   );
 }
