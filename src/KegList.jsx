@@ -8,6 +8,8 @@ function KegList(props){
   return (
     <div>
 
+      <h1>Available Products</h1>
+
       {props.kegList.map((keg) =>
         <Keg name={keg.name}
           brand={keg.brand}
@@ -16,7 +18,8 @@ function KegList(props){
           key={keg.id}/>
       )}
 
-    
+
+
 
     </div>
   );
