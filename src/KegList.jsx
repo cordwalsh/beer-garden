@@ -6,9 +6,9 @@ import keg from './Keg';
 
 function KegList(props){
   return (
-    <div>
+    <div className="keglist_home">
 
-      <h1>Available Products</h1>
+      <h2>Available Products</h2>
 
       {props.kegList.map((keg) =>
         <Keg name={keg.name}

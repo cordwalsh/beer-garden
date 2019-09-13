@@ -18,7 +18,6 @@ function Header(){
       <div className="links_info">
         <p><Link to="/about">About</Link></p>
         <p><Link to="/location">Location</Link></p>
-        <p>503-555-0104</p>
       </div>
     </div>
   );
