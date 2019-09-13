@@ -3,6 +3,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 
 import Routes from './Routes';
 import Header from  './Header';
+import Skyline from './Skyline';
 
 class App extends React.Component {
   constructor(props) {
@@ -25,6 +26,8 @@ class App extends React.Component {
   <BrowserRouter>
     <main className="container">
       <Header />
+      <Skyline />
+
       <Routes masterKegList={this.state.masterKegList} handleAddingNewKegToList={this.handleAddingNewKegToList}/>
       </main>
 

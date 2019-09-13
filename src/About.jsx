@@ -11,7 +11,7 @@ function About(){
         </div>
 
         <div className="about_body">
-          <p>Tap A Keg offers 26 constantly rotating taps encompassing the entire range of beer styles with an emphasis on Oregon breweries. We do not offer food, but welcome you to bring in what Portland has to offer. 21+
+          <p>Tap A Keg offers constantly rotating taps encompassing the entire range of beer styles with an emphasis on Oregon breweries. We do not offer food, but welcome you to bring in what Portland has to offer. 21+
           </p>
         </div>
 

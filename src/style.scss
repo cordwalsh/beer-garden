@@ -3,8 +3,9 @@
 
 
 body {
-background-color: lightcoral;
+  background-color: #8dcdd9;
   font-family: 'Oswald', sans-serif;
+  animation: fade 1s;
 }
 
 
@@ -34,13 +35,6 @@ background-color: lightcoral;
   width: 80%;
 }
 
-.skull {
-  position: absolute;
-  width: 50px;
-  right: 290px;
-  top: 2px;
-}
-
 .confirmation {
   text-align: center;
   color: white;
@@ -55,7 +49,7 @@ background-color: lightcoral;
 }
 
 .confirmation button:hover {
-  background-color: lightgreen;
+  background-color: #c48297;
 }
 
 .kegform {
@@ -80,7 +74,7 @@ background-color: lightcoral;
 }
 
 .kegform button:hover {
-  background-color: #fff06e;
+  background-color: #c48297;
 }
 
 .kegform h1 {
@@ -113,6 +107,8 @@ background-color: lightcoral;
   color: white;
   text-align: center;
   font-size: 15px;
+  background-color: #74a1ab;
+  border-radius: 25px;
 }
 
 .keglist_home h2 {
@@ -132,6 +128,8 @@ background-color: lightcoral;
   background-image: url("./assets/women_background.jpg");
   background-size: cover;
   height: 600px;
+  border-radius: 25px;
+  animation: fade 1s;
 }
 
 .about_header_container {
@@ -139,6 +137,7 @@ background-color: lightcoral;
   background-color: grey;
   opacity: .3;
   height: 250px;
+  border-radius: 25px;
 }
 
 .about_header {
@@ -149,6 +148,7 @@ background-color: lightcoral;
   color: white;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  animation: fade 2s;
 }
 
 .about_body {
@@ -159,6 +159,7 @@ background-color: lightcoral;
   text-align: center;
   font-size: 20px;
   color: white;
+  animation: fade 1s;
 }
 
 .location {
@@ -166,12 +167,15 @@ background-color: lightcoral;
   background-size: cover;
   background-position: right 50% bottom 10%;
   height: 600px;
+  border-radius: 25px;
+  animation: fade 1s;
 }
 
 .location_container {
   background-color: grey;
   opacity: .3;
   height: 250px;
+  border-radius: 25px;
 }
 
 .location_body {
@@ -183,4 +187,12 @@ background-color: lightcoral;
   font-size: 20px;
   color: white;
   font-family: 'Cormorant Garamond', serif;
+  animation: fade 2s;
+}
+
+.skyline {
+  position: absolute;
+  right: 84%;
+  top: 4%;
+  z-index: -1;
 }
