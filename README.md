@@ -1,7 +1,7 @@
 # simple-react-app
 
 
-![alt text]("./tree.png")
+![alt text]("tree.png")
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
